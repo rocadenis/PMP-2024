@@ -1,0 +1,21 @@
+Explicația rezultatelor - Exercițiu laborator 8
+
+Acest exercițiu analizează efectul variabilelor Y și θ asupra distribuției a posteriori a lui n, numărul total de clienți care vizitează magazinul.
+
+Observații:
+
+Efectul lui Y:
+- Când valoarea lui Y este mică (ex: Y = 0):
+  - Distribuția a posteriori pentru n este concentrată la valori mici, deoarece e puțin probabil ca un număr mare de clienți să nu cumpere nimic.
+- Când valoarea lui Y crește (ex: Y = 10):
+  - Distribuția a posteriori pentru n se deplasează către valori mai mari, deoarece un Y mare implică mai mulți clienți.
+
+Efectul lui θ:
+- Când θ este mare (ex: θ = 0.5):
+  - Este mai probabil ca fiecare client să cumpere, ceea ce înseamnă că numărul total n poate fi mai mic pentru a explica Y.
+- Când θ este mic (ex: θ = 0.2):
+  - Probabilitatea ca un client să cumpere este redusă, astfel încât n trebuie să fie mai mare pentru a explica Y.
+
+Concluzii:
+- Numărul observat de clienți Y influențează semnificativ forma distribuției a posteriori a lui n. Un Y mare sugerează valori mai mari pentru n.
+- Probabilitatea de cumpărare θ ajustează modul în care Y influențează n. O probabilitate mare θ reduce estimările pentru n, iar o probabilitate mică θ le crește.
